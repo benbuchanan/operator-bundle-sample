@@ -8,8 +8,8 @@ LABEL operators.operatorframework.io.bundle.channels.v1=alpha
 LABEL operators.operatorframework.io.bundle.channel.default.v1=alpha
 
 
-COPY 0.0.3/manifests /manifests/
-COPY 0.0.3/metadata /metadata/
+COPY manifests /manifests/
+COPY metadata /metadata/
 LABEL com.redhat.openshift.versions="v4.5,v4.6"
 LABEL com.redhat.delivery.operator.bundle=true
 LABEL com.redhat.delivery.backport=true
